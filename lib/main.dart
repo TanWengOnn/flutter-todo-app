@@ -151,6 +151,15 @@ class _MyHomePageState extends State<MyHomePage> {
                                 maxLines: 3,
                               ),
                             ),
+                            ElevatedButton(
+                              
+                                onPressed: () {
+                                  setState(() {
+                                    todoList.removeAt(index);
+                                  });
+                                },
+                                child: Text("Delete")
+                            )
                           ],
                         ),
                       )
