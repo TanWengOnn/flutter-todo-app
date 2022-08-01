@@ -152,7 +152,6 @@ class _MyHomePageState extends State<MyHomePage> {
                               ),
                             ),
                             ElevatedButton(
-                              
                                 onPressed: () {
                                   setState(() {
                                     todoList.removeAt(index);
